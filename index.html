@@ -1,10 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>我的第一个网站</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网站</title>
+    <!-- 可以引入Tailwind CSS美化页面 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
-<body>
-    <h1>Hello, World! 这是我的网站喵~欢迎来到Aroko雫喵的小窝</h1>
-    <p>通过 GitHub Pages 免费搭建</p>
+<body class="bg-gray-100 min-h-screen">
+    <header class="bg-blue-600 text-white p-6">
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-bold">欢迎来到Aroko的小窝喵~！</h1>
+            <p class="mt-2 text-xl">这是一个通过GitHub Pages免费搭建的网站</p>
+        </div>
+    </header>
+    
+    <main class="container mx-auto p-6">
+        <section class="bg-white rounded-lg shadow-md p-6 my-6">
+            <h2 class="text-2xl font-semibold mb-4">关于我</h2>
+            <p>你好！这是我的个人网站，用于分享我的音乐工程和游戏进度。</p>
+        </section>
+        
+        <section class="bg-white rounded-lg shadow-md p-6 my-6">
+            <h2 class="text-2xl font-semibold mb-4">我的项目</h2>
+            <ul class="list-disc pl-5">
+                <li>项目一：这是我的第一个项目</li>
+                <li>项目二：这是我的第二个项目</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer class="bg-gray-800 text-white p-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2023 我的个人网站 | 用 <i class="fa fa-github"></i> GitHub Pages 搭建</p>
+        </div>
+    </footer>
 </body>
 </html>
